@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AwsAppConfigClient": {
+      "commandName": "Project",
+      "commandLineArgs": "-app=RSC -env=DEV"
+    }
+  }
+}

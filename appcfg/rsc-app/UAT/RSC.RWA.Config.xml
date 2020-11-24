@@ -1,0 +1,5 @@
+<Parameters>
+	<Parameter name="version">1</Parameter>
+	<Parameter name="cfgName">rsc.rwa.config</Parameter>
+	<Parameter name="env">uat</Parameter>
+</Parameters>

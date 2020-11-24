@@ -1,0 +1,67 @@
+{
+	"targets": [{
+			"application": "RSCApp",
+			"environment": "DEV",
+			"deploymentStrategy": "WithoutBaking",
+			"configurations": [{
+					"name": "DEV.RSC.RWA.Config",
+					"file": "DEV\\RSC.RWA.Config.xml"
+				}, {
+					"name": "DEV.RSC.GG.Config",
+					"file": "DEV\\RSC.GG.Config.xml"
+				}, {
+					"name": "DEV.RSC.Config",
+					"file": "DEV\\RSC.Config.xml"
+				}
+			]
+		},
+		{
+			"application": "RSCApp",
+			"environment": "SIT",
+			"deploymentStrategy": "WithoutBaking",
+			"configurations": [{
+					"name": "SIT.RSC.RWA.Config",
+					"file": "SIT\\RSC.RWA.Config.xml"
+				}, {
+					"name": "SIT.RSC.GG.Config",
+					"file": "SIT\\RSC.GG.Config.xml"
+				}, {
+					"name": "SIT.RSC.Config",
+					"file": "SIT\\RSC.Config.xml"
+				}
+			]
+		},
+		{
+			"application": "RSCApp",
+			"environment": "UAT",
+			"deploymentStrategy": "WithoutBaking",
+			"configurations": [{
+					"name": "UAT.RSC.RWA.Config",
+					"file": "UAT\\RSC.RWA.Config.xml"
+				}, {
+					"name": "UAT.RSC.GG.Config",
+					"file": "UAT\\RSC.GG.Config.xml"
+				}, {
+					"name": "UAT.RSC.Config",
+					"file": "UAT\\RSC.Config.xml"
+				}
+			]
+		},
+		{
+			"application": "RSCApp",
+			"environment": "PDN",
+			"deploymentStrategy": "WithoutBaking",
+			"configurations": [{
+					"name": "PDN.RSC.RWA.Config",
+					"file": "PDN\\RSC.RWA.Config.xml"
+				}, {
+					"name": "PDN.RSC.GG.Config",
+					"file": "PDN\\RSC.GG.Config.xml"
+				}, {
+					"name": "PDN.RSC.Config",
+					"file": "PDN\\RSC.Config.xml"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,8 @@
+<Parameters>
+	<Parameter name="version">2</Parameter>
+	<Parameter name="cfgName">rsc.rwa.config</Parameter>
+	<Parameter name="env">sit</Parameter>
+	<Parameter name="version">2</Parameter>
+	<Parameter name="cfgName">rsc.rwa.config</Parameter>
+	<Parameter name="env">sit</Parameter>
+</Parameters>
